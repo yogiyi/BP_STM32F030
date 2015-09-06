@@ -1,0 +1,24 @@
+--cpu Cortex-M0
+".\io_toggle\startup_stm32f030x8.o"
+".\io_toggle\stm32f0308_discovery.o"
+".\io_toggle\stm32f0xx_gpio.o"
+".\io_toggle\stm32f0xx_misc.o"
+".\io_toggle\stm32f0xx_rcc.o"
+".\io_toggle\stm32f0xx_exti.o"
+".\io_toggle\stm32f0xx_syscfg.o"
+".\io_toggle\stm32f0xx_tim.o"
+".\io_toggle\stm32f0xx_usart.o"
+".\io_toggle\main.o"
+".\io_toggle\stm32f0xx_it.o"
+".\io_toggle\system_stm32f0xx.o"
+".\io_toggle\mmr901xa_cmd.o"
+".\io_toggle\mmr901xa_spi.o"
+".\io_toggle\bpm_main.o"
+".\io_toggle\utl.o"
+".\io_toggle\mmr901xa_func.o"
+".\io_toggle\pump.o"
+".\io_toggle\valve.o"
+--library_type=microlib --strict --scatter ".\IO_Toggle\IO_Toggle.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "IO_Toggle.map" -o .\IO_Toggle\IO_Toggle.axf

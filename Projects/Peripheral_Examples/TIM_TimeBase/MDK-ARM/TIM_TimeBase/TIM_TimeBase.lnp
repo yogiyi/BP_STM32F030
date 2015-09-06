@@ -1,0 +1,16 @@
+--cpu Cortex-M0
+".\tim_timebase\startup_stm32f030x8.o"
+".\tim_timebase\stm32f0308_discovery.o"
+".\tim_timebase\stm32f0xx_gpio.o"
+".\tim_timebase\stm32f0xx_misc.o"
+".\tim_timebase\stm32f0xx_rcc.o"
+".\tim_timebase\stm32f0xx_tim.o"
+".\tim_timebase\stm32f0xx_exti.o"
+".\tim_timebase\stm32f0xx_syscfg.o"
+".\tim_timebase\main.o"
+".\tim_timebase\stm32f0xx_it.o"
+".\tim_timebase\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter ".\TIM_TimeBase\TIM_TimeBase.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TIM_TimeBase.map" -o .\TIM_TimeBase\TIM_TimeBase.axf
