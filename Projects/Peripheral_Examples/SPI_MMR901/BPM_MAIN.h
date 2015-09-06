@@ -126,7 +126,7 @@
 	#define BPM_MOVE_AVE_NUM			5										//!< Number of sample for the moving average
 
 //	#define BPM_VALVE_LEAK_KEEP			24										//!< Duty Ratio Keep Time: 120[ms] = 24[*5ms]
-	#define BPM_VALVE_LEAK_KEEP			100										//!< Duty Ratio Keep Time: 100[ms] = 20[*5ms]
+	#define BPM_VALVE_LEAK_KEEP			40										//!< Duty Ratio Keep Time: 100[ms] = 20[*5ms]
 
 //	#define BPM_PRESS_1ST_LEAK_LIMIT	14000									//!< Duty Ratio 
 //	#define BPM_PRESS_1ST_LEAK_LIMIT	15000									//!< Duty Ratio 

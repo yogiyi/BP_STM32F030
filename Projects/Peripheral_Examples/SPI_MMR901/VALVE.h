@@ -43,7 +43,7 @@
 
 	#define VLV_DUTY_RATIO_100		1000										//!< 0.1% per unit
 //	#define VLV_DUTY_RATIO_START	350											//!< 0.1% per unit
-		#define VLV_DUTY_RATIO_START	300	
+		#define VLV_DUTY_RATIO_START	400	
 //YY 	#define VLV_DUTY_RATIO_START	300											//!< 0.1% per unit
 //	#define VLV_DUTY_RATIO_STOP		250											//!< 0.1% per uint
 	#define VLV_DUTY_RATIO_STOP		180											//!< 0.1% per uint

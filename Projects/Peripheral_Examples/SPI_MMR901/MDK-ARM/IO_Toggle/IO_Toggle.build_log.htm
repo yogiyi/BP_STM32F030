@@ -7,6 +7,35 @@ F:\Function\STM32F0308-Discovery_FW_V1.0.1\Projects\Peripheral_Examples\SPI_MMR9
 Project File Date:  09/01/2015
 
 <h2>Output:</h2>
-</pre>
-</body>
-</html>
+Build target 'IO_Toggle'
+compiling main.c...
+..\main.c(137): warning:  #177-D: variable "i" was declared but never referenced
+        uint8_t i = 0;
+..\main.c(138): warning:  #177-D: variable "buffptr" was declared but never referenced
+        uint8_t buffptr[5] = "ABCD";
+..\main.c(340): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+     NVIC_InitTypeDef NVIC_InitStructure;
+..\main.c(411): warning:  #177-D: function "TIM_Config" was declared but never referenced
+  static void TIM_Config(void)
+..\main.c: 4 warnings, 0 errors
+compiling stm32f0xx_it.c...
+compiling MMR901XA_CMD.c...
+compiling MMR901XA_SPI.c...
+compiling BPM_MAIN.c...
+..\BPM_MAIN.c(211): warning:  #177-D: variable "buffer" was declared but never referenced
+        uint8_t buffer[3] = {0x67,0x93,0x04};
+..\BPM_MAIN.c: 1 warning, 0 errors
+compiling UTL.c...
+compiling MMR901XA_FUNC.c...
+compiling PUMP.c...
+compiling VALVE.c...
+..\VALVE.c(191): warning:  #177-D: variable "temp" was declared but never referenced
+        uint32 temp;
+..\VALVE.c: 1 warning, 0 errors
+linking...
+Program Size: Code=6736 RO-data=252 RW-data=172 ZI-data=1804  
+".\IO_Toggle\IO_Toggle.axf" - 0 Error(s), 6 Warning(s).
+Load "F:\\Function\\STM32F0308-Discovery_FW_V1.0.1\\Projects\\Peripheral_Examples\\SPI_MMR901\\MDK-ARM\\IO_Toggle\\IO_Toggle.axf" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.

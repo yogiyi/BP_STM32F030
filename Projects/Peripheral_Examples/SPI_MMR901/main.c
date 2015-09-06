@@ -122,7 +122,7 @@ void GPIO_INT(void);
 	
 	
 	
-	00000000000000000000000000
+	
 int main(void)
 {
   /*!< At this stage the microcontroller clock setting is already configured, 
